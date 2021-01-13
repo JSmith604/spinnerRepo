@@ -1,4 +1,4 @@
-spinner1 = () =>  {
+const spinner1 = () =>  {
   setTimeout(() => {
     process.stdout.write('\r|   ');
   }, 100);
